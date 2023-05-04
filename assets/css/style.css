@@ -720,7 +720,7 @@ img {
 }
 
 
-.contact_btn a{
+.contact_btn button{
     display: block;
     color: #fff;
     letter-spacing: .64px;
@@ -733,13 +733,19 @@ img {
     margin-top: 40px;
     text-align: center;
     border: 1px solid transparent;
+    width: 100%;
 }
-.contact_btn a:hover{
+.contact_btn button:hover{
     background-color: #fff;
     color: #000;
     border: 1px solid #24282C;
 }
-
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 /*============== Contact Css Close ===============*/
 #scroll{
     display: none;

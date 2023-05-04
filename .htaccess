@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond %{about} !-d
+RewriteCond %{about}\.html -f
+
+RewriteCond %{index} !-d
+RewriteCond %{index}\.html -f
+
+RewriteCond %{contact_us} !-d
+RewriteCond %{contact_us}\.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]	

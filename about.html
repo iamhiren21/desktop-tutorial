@@ -3,7 +3,8 @@
 
 <head>
     <title>About Us Page</title>
-
+    <meta name="keywords" content="Febgeek, Febgeeks, febgeeksinfotech, ShopifyExpert, Shopifyguru, Guru, Shopify development, Shopify design, Shopify customization, Shopify migration, Shopify website design, Shopify store management, Shopify e-commerce, Shopify store optimization" />
+    <meta name="keywords" content="Shopify theme development, Shopify app development, Shopify marketing, Shopify SEO optimization, Shopify store setup, Shopify maintenance, Shopify integration, Shopify support, Shopify consultation, Shopify experts, Shopify solutions, Shopify services" />
     <link type="image/x-icon" rel="shortcut icon" href="assets/images/fevicon.png" />
 
     <!-- Required meta tags -->
@@ -102,7 +103,7 @@
                         <div class="hero_sec">
                             <div class="hero_img_block">
                                 <div class="hero_img wow fadeInRight">
-                                    <img src="assets/images/hero_img.jpg" alt="">
+                                    <img src="assets/images/about_us_hero.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -309,11 +310,12 @@
     <script src="assets/js/wow.min.js"></script>
 
     <script src="assets/js/custom.js"></script>
-
     <script>
-           
-    </script>
-
+        $(document).ready(function(){
+          $('.menu_block li a').click(function(){
+             $('.header_wrapper').removeClass('menu_open');
+          })
+        })
+    </script>++
 </body>
-
 </html>

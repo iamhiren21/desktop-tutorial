@@ -471,9 +471,14 @@
     }
     .clients_wrap {
         margin-top: 20px;
+        margin-bottom: -80px;
     }
     .services_wrapper {
-        padding-top: 40px;
+        padding-top: 100px;
+        margin-bottom: -40px;
+    }
+    .project_wrapper {
+        padding-top: 80px;
     }
     .comman_title h2 {
         font-size: 26px;
@@ -584,7 +589,7 @@
     .contact_input input, .contact_input textarea{
         padding: 10px 15px;
     }
-    .contact_btn a {
+    .contact_btn button {
         padding: 12px 38px;
         font-size: 16px;
         margin-top: 30px;
@@ -668,12 +673,3 @@
         font-size: 26px;    
     }
 }
-
-
-
-
-
-
-
-
-
