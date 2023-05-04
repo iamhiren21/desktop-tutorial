@@ -374,8 +374,8 @@ img {
 }
 
 .owl-carousel .owl-nav button.owl-next{
-    width: 68px;
-    height: 68px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #000;
     border-radius: 50%;
     justify-content: center;
@@ -383,13 +383,17 @@ img {
     display: flex;
 }
  .owl-carousel .owl-nav button.owl-prev{
-    width: 68px;
-    height: 68px;
+    width: 60px;
+    height: 60px;
     border: 1px solid #000;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
+    transition: all 0.3s ease;
+ }
+ .owl-carousel .owl-nav button.owl-prev:hover, .owl-carousel .owl-nav button.owl-next:hover{
+    transform: scale(1.1);
  }
  .owl-theme .owl-nav [class*=owl-]:hover{
     background-color: unset;

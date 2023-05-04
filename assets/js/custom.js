@@ -7,7 +7,7 @@ $(document).ready(function(){
 
     $('.menu_block li a').click(function(){
         $('.header_wrapper').removeClass('menu_open');
-        $('body').toggleClass('cm-overflow');
+        $('body').removeClass('cm-overflow');
     })
 
 });
