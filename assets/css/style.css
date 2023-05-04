@@ -825,7 +825,7 @@ input::-webkit-inner-spin-button {
 }
 .scoial_title{
     border-top: 1px solid #7d7d7d;
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -870,7 +870,7 @@ input::-webkit-inner-spin-button {
 
 /*============== About Us Page Start ===============*/
 .about_wrapper{
-    padding-top: 50px;
+    padding-top: 150px;
 }
 .about_wrap{
     background-color: #F5F5F5;
@@ -892,7 +892,7 @@ input::-webkit-inner-spin-button {
 
 
 .choose_us_wrapper{
-    padding-top: 80px;
+    padding-top: 100px;
 }
 .choose_us_title h3{
     color: #000000;
@@ -943,7 +943,7 @@ input::-webkit-inner-spin-button {
 }
 
 .process​_wrapper{
-    padding: 80px 0 0px 0;
+    padding: 100px 0 0px 0;
 }
 .process​_wrap{
     background-color: #F5F5F5;
