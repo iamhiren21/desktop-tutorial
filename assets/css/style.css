@@ -481,7 +481,7 @@ img {
 /*============== Cm Banner Css Start ===============*/
 .cm_banner_wrapper{
     margin-top: 30px;
-    background-image: url(../images/cm_banner.jpg);
+    background-image: url(../graphics/logo/cm_banner.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

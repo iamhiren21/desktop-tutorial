@@ -17,7 +17,7 @@ $('#project_slider').owlCarousel({
     margin:10,
     nav:true,
     dots:false,
-    navText: ["<img src='assets/images/right_arrow.svg'> ", "<img src='assets/images/left_arrow.svg'>"],
+    navText: ["<img src='assets/graphics/icon/right_arrow.svg'> ", "<img src='assets/graphics/icon/left_arrow.svg'>"],
     responsive:{
         0:{
             items:1
@@ -36,7 +36,7 @@ $('#review_slider').owlCarousel({
     margin:10,
     nav:true,
     dots:false,
-    navText: ["<img src='assets/images/right_arrow.svg'> ", "<img src='assets/images/left_arrow.svg'>"],
+    navText: ["<img src='assets/graphics/icon/right_arrow.svg'> ", "<img src='assets/graphics/icon/left_arrow.svg'>"],
     responsive:{
         0:{
             items:1
